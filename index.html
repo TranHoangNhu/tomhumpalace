@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/FAVICON.png" type="image/x-icon">
+    <title>KHÁCH SẠN TÔM HÙM</title>
+    <style>
+        /* Điều chỉnh thanh cuộn toàn cục*/
+        ::-webkit-scrollbar {
+            width: 5px;
+            /* Đặt chiều rộng mỏng nhất có thể để thanh cuộn */
+            background-color: #c7c1ba;
+            /* Màu nền của thanh cuộn */
+        }
+
+        /* Điều chỉnh nút cuộn (thumb) */
+        ::-webkit-scrollbar-thumb {
+            background-color: #c7c1ba;
+            /* Màu của nút cuộn */
+            border-radius: 10px;
+            /* Tạo đường viền bo tròn cho nút cuộn */
+        }
+
+        /* Điều chỉnh nút cuộn khi hover qua */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #a8a495;
+            /* Màu nền của nút cuộn khi được hover qua */
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+            /* Ngăn không cho người dùng cuộn ngang */
+        }
+
+        .image-container {
+            width: 1920px;
+            /* Chiều rộng của ảnh */
+            max-width: 100%;
+            height: auto;
+            /* Duy trì tỷ lệ chiều dài của ảnh */
+        }
+
+        /* Điều chỉnh thanh cuộn cho Firefox */
+        body {
+            scrollbar-width: thin;
+            scrollbar-color: #c7c1ba transparent;
+            /* Màu thanh cuộn và màu nền scrollbar */
+        }
+    </style>
+</head>
+
+
+<body>
+    <a href="#">
+        <img src="./images/DEMO-LOBSTER-PALACE.png" class="image-container" alt="Demo Image">
+    </a>
+</body>
+
+</html>
